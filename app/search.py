@@ -1,6 +1,6 @@
 import time
 import requests
-from data import DataApi
+from app.data import DataApi
 from settings import ANSWERS
 
 

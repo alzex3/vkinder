@@ -1,7 +1,7 @@
-from service import ServiceApi
-from data import DataApi
-from search import Search
-from base import ResultsBase
+from app.service import ServiceApi
+from app.data import DataApi
+from app.search import Search
+from app.base import ResultsBase
 
 
 class Handler:

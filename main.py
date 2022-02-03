@@ -1,4 +1,4 @@
-from handler import Handler
+from app.handler import Handler
 from settings import COMMUNITY_TOKEN, USER_TOKEN, ANSWERS
 
 if __name__ == '__main__':

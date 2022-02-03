@@ -55,6 +55,9 @@ class DataApi:
 
             return resp['response'][0]
 
+        except IndexError:
+            return False
+
         except KeyError:
             return False
 
